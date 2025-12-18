@@ -17,3 +17,4 @@ desktop.ini
 ### 工作区
 
 **/*.exe
+**/*.out
