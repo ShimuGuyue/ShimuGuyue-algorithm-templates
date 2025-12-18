@@ -12,3 +12,8 @@ desktop.ini
 .vscode/
 
 *.code-workspace
+
+
+### 工作区
+
+**/*.exe
