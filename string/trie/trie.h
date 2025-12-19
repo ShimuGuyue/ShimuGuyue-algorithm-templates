@@ -12,8 +12,8 @@ private:
     struct Node
     {
         std::array<Node*, 26> nexts{ }; // 指向的子节点
-        int count_end{ 0 };		        // 在当前节点处结束的字符串个数
-        int count_pass{ 0 };		    // 以当前节点为前缀的字符串个数
+        int count_end{ 0 };             // 在当前节点处结束的字符串个数
+        int count_pass{ 0 };            // 以当前节点为前缀的字符串个数
     };
 
     bool is_init{ false };
